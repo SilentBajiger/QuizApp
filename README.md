@@ -52,24 +52,23 @@ Return appropriate HTTP status codes: 200 OK for successful requests; 400 Bad Re
 ### Deployment
 Deploy the application using Vercel or Netlify. Follow their documentation to connect your GitHub repository and deplo
 y the app.
-### Code Structure
-src/: Contains all React components and context providers.
-components/: Contains individual components such as QuizCard and ResultComponent.
-context/: Contains the QuizContext for state management.
-App.js: Main application file that manages routing.
-### Best Practices
-Code Organization: Structure files logically; use meaningful names.
-Component Design: Keep components small and focused; reuse where possible.
-State Management: Use Context API for global state; keep local state within components.
-API Integration: Use async/await for API calls; handle errors gracefully.
-Responsive Design: Ensure usability across devices; test on different screen sizes.
-Performance Optimization: Use memoization to prevent unnecessary re-renders; lazy load components.
-Accessibility: Use semantic HTML; ensure color contrast; add ARIA roles where needed.
-Testing: Write unit and integration tests with Jest and React Testing Library.
-Documentation: Provide clear code comments and maintain a detailed README.md.
-Version Control: Use Git with regular commits and descriptive messages.
-Security: Validate inputs; use HTTPS; store sensitive data securely.
-CI/CD: Implement automated testing and deployment processes with CI/CD tools.
+
+## Project Structure
+- **src/:** Contains all React components and context providers.  
+- **components/:** Contains individual components such as QuizCard and ResultComponent.  
+- **context/:** Contains the QuizContext for state management.  
+- **App.js:** Main application file that manages routing.  
+
+## Best Practices
+- **Code Organization:** Structure files logically for easy navigation.  
+- **Component Reusability:** Create reusable components to reduce redundancy.  
+- **State Management:** Utilize Context API for efficient state management across components.  
+- **Error Handling:** Implement proper error handling to enhance user experience.  
+- **Responsive Design:** Ensure a responsive layout for various screen sizes.  
+- **Code Comments:** Use comments to explain complex logic for better readability.  
+- **Version Control:** Use Git for version control and collaboration.  
+- **Testing:** Write unit tests for components to ensure reliability.  
+
 ### Code Documentation
 Inline comments have been added to clarify the purpose of functions and important logic, such as state management in QuizCard and ResultComponent.
 
