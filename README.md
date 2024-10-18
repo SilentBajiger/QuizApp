@@ -14,7 +14,7 @@ This web application evaluates users on various skill sets through a series of q
 - **Frontend:** React, Material-UI
 - **State Management:** Context API
 - **Routing:** React Router
-- **Deployment:** [Vercel](link-to-your-deployment) or [Netlify](link-to-your-deployment)
+- **Deployment:** [Netlify](https://loquacious-muffin-bebb2a.netlify.app/)
 
 ## Getting Started
 
